@@ -36,12 +36,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Email"
-        app:layout_constraintBottom_toTopOf="@+id/btn_join"
+        app:layout_constraintBottom_toTopOf="@+id/edit_password_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.782" />
+        app:layout_constraintVertical_bias="0.906" />
 
     <EditText
         android:id="@+id/edit_password_login"
@@ -56,6 +56,6 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.798" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
